@@ -2,9 +2,27 @@
 
 ## What is SQL
 
-SQL (Structured Query Language) is the standard language used to communicate with relational databases. It allows users to store, retrieve, manipulate, and manage data efficiently.
+SQL (Structured Query Language) is the standard programming language used to communicate with and manage relational databases. 
+It allows users to store, retrieve, manipulate, and manage data efficiently.
 
 SQL is not a general-purpose programming language like Python or Java. It is a domain-specific language designed specifically for working with databases.
+
+**DBMS VS RDMS**
+
+A DBMS (Database Management System) is software used to store and manage data in a flat file or hierarchical structure. 
+An RDBMS (Relational Database Management System) is an advanced type of DBMS that organizes data into related tables, 
+ensuring higher security, data integrity, and support for multiple users.
+
+Here is a breakdown of the core differences:
+Feature 
+                              DBMS (Database Management System)	                                   RDBMS (Relational DBMS)
+Data Storage	                Data is stored as files.	                                           Data is stored in tables with rows and columns.
+Data Relations	              No relationships or links between data.                              Data in tables can be linked/related using keys.
+Query Language	              Does not use a standardized query language.	                         Uses Structured Query Language (SQL) for easy fetching.
+Users	                        Generally designed for a single user.	                               Supports multiple users simultaneously.
+Security & Integrity       	  Lower security and fewer integrity checks.	                         High security measures and strict integrity constraints.
+Best Used                     For	Small applications with limited data.	                           Large-scale datasets and complex organizations.
+Examples	                    XML files, Windows Registry.	                                        MySQL, PostgreSQL, Oracle, SQL Server.
 
 ---
 
